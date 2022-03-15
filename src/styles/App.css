@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Open+Sans&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.App {
+  height: 100vh;
+}
+
+/* Menu  */
+
+.navbar{
+  padding-top: 1px;
+  padding-bottom: 2px;
+}
+
+.navbar1 {
+  background-color: #0A0C0A;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFF !important;
+  min-height: 69px;
+/*   line-height: 13px; */
+}
+
+.textNavbar {
+  color: #FFFF !important;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  height: 20px;
+  align-items: center;
+  padding: 1px 8px;
+  text-decoration: none;
+}
+
+.navbar2 {
+  background-color: #242F3E;
+}
+
+.textNavbar2 {
+  color: #FFFF !important;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  height: 15px;
+  align-items: center;
+  padding-bottom:5px ;
+  margin-left: 10px;
+}
+
+.shopNav {
+  color: #FFFF !important;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.NavLinkStyled {
+  height: 50px;
+}
+
+/* Home */
+
+.imgTumb {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #333333;
+}
+
+.descriptionProduct{
+  width: 490px;
+}
+
+/* Modal */
+.modalForm {
+  width: 90% !important;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+/* .egyPPV {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0px;
+} */
+
+/* Footer */
+
+.BrandFooter {
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.ImgFooter {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Login */
+
+.Icon {
+  font-size: 30px;
+  margin: 0px 15px;
+  color: #3b5998;
+}
+
+.registerLogin {
+  margin-top: 3rem;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .ImgAmazonas {
+    width: 350px;
+  }
+}
